@@ -1,0 +1,127 @@
+html{
+    background-color: black;
+    font-family: Helvetica;
+    font-size:22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    margin: 0;
+}
+header {
+    height: 69px;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    position:fixed;
+    width: 100%;
+}
+
+a {
+    color: seashell;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+}
+
+li {
+    list-style: none;  
+    color: white;
+    display: flex;
+}
+
+ul {
+}
+.logo {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    margin: auto;
+}
+.welcome {
+    padding-top: 140px;
+    height: 700px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    color:white;
+    margin:auto;
+}
+.titles {
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.teas {
+    width: 1000px;
+    display: block;
+    height: 700px;
+    margin: auto;
+}
+
+.totm {
+    text-align: center;
+}
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container {
+    margin: 10px;
+    padding-bottom: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.image-container img {
+    height: 200px;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.location {
+    width: 1200px;
+    height: 500px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    margin:auto;
+}
+
+.location-content {
+    display:block;
+    text-align: center;
+    padding-top: 100px;
+}
+.loc {
+    display: inline-block;
+    background-color: black;
+    padding: 0 40px;
+    margin-right: 40px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+footer {
+    width:1200px;
+    margin-left:20px;
+    text-align: left;
+}
